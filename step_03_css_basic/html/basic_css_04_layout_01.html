@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="UTF-8" />
+	<title>css basic</title>
+	<style>
+		/*	reset.css */
+			html, body{height:100%; margin:0; padding:0;}
+			h1, h2, h3, h4, h5, h6, p, pre, div, 
+			blockquote, q, dl, dt, dd, ul, ol, li{
+					margin:0; padding:0; color:#333;
+					}
+			ul, ol, li{list-style:none;}
+	
+		/*		common.css */
+			.clearfix:after{
+				content:" "; display:block; width:100%; clear:both;
+		}
+		.hidden{font-size:0; color:transparent;}/*transparent 투명도*/
+		
+				/*		h2{opacity:0;}  (0~1) 소숫점 가능, 투명도 설정. 사이즈가 사라지지는 않음
+															explore 하위버전등 구형 브라우저에서는 사용 불가할수도 있음
+															자식, 자손 요소도 투명*/
+  			/*		h2{display:none;}  none(존재 없음/용량 차지) | block(블럭코드) 
+																inline(인라인코드) | inline-block(인라인블럭코드) */
+  			/*		h2{visibility:hidden;}  hidden(존재X, 공간 존재) | visible(보이는 것) */
+		
+		/*		design.css */
+			
+		#box{width:600px; height:auto; margin:0 auto;}
+				#box>div{width:100%; height:100px}
+		
+	/*
+		아래와 같은 코드를 위와같이 간편하게 작성할 수 있다.
+		.header{width:100%; height:100px; background-color:#faa;}
+		.section{width:100%; height:300px; background-color:#fa0;}
+		.footer{width:100%; height:100px; background-color:#0af;}
+	*/
+/*------------------------ .header ----------------------------------------		*/
+			#box>.header{width:580px; background-color:#faa; padding: 20px 10px 0;}
+				h1{width:50px; height: 60px; background-color: #dd4; 
+					float:left; }
+				.navigation{width: 300px; height: 30px; background-color: #4dd;
+										float:right; margin-right:50px;}
+		.sub_navigation{width: 300px; height: 30px; background-color: #42d;
+										float:right; margin-right:50px; margin-top:10px;}
+		
+		
+				.navigation>ul{width:100%; height: 100%;}
+				.navigation>ul>li{float: left; margin-right:10px; background-color: #fff;}
+		
+/*------------------------ .section ----------------------------------------		*/
+			#box>.section{width:auto; height:300px; background-color:#fa0;}
+			/*.section > div{
+				width:33.333333%; 
+				width:-webkit-calc(100% / 3); 크롬, 사파리 
+				width:-moz-calc(100% / 3); 모질라
+				width:-ms-calc(100% / 3); 마이크로소프트
+				width:-o-calc(100% / 3); 오페라
+				width:-epub(          ); 전자책
+				width:calc(100% / 3);   
+			  height:100%; float:left;} 
+																					:prefix*/
+		
+				.article{width:70%; height:50%; background-color: #fcc; float:left;}
+				.container{width:70%; height:50%; background-color: #3cc; float:left;}
+				.aside{width:30%; height:100%; background-color:#acc; float:right; margin:-150px 0;}
+/*	calc (100% / 3)  *띄어쓰기 필수	*/
+/*	margin : 여백의 여부를 결정할 수 있지만, 공간을 줄이거나(-) 늘릴(+) 수도 있음.
+		         double margind 효과가 나타날 수 있어 padding을 사용하는 것이 더 좋음*/
+/*------------------------ .footer ----------------------------------------	*/
+			.footer{background-color:#0af;}
+		
+	/*
+				CSS 선택자 우선순위 : 
+													조상>#>.>tag, 뒤에 오는 속성
+	*/
+	/*   필요없는 부분은 빠르게 삭제, 정리할 것		*/
+	</style>
+	<script></script>
+</head>
+<body>
+	<div id="box">
+		<div class="header"> 
+			<h1>LOGO</h1>
+			<div class="navigation">
+				<h2 class="hidden">global_navigation</h2>
+				<ul>
+					<li>list_01</li>
+					<li>list_02</li>
+					<li>list_03</li>
+					<li>list_04</li>
+					<li>list_05</li>
+				</ul>
+			</div><!--// .navigation-->
+			<div class="sub_navigation">
+				<h2>sub_navigation</h2>
+			</div><!--// .sub_navigation-->
+			
+		</div><!--header-->
+		
+		
+		<div class="section"> 
+			<h2 class="hidden">section</h2>
+			<div class="article"> 
+			 <h3>article</h3>
+			</div><!--// .article 본문내용 등-->
+			<div class="container">
+				<h3>container</h3>
+			</div><!--// .container  -->
+			<div class="aside"> 
+			 <h3>aside</h3>
+			</div><!--// .aside  site에서 왼쪽 메뉴와 같은 보조메뉴..-->
+			
+		</div><!--section 하나의 작은 웹사이트, 본문! -->
+		
+		
+		<div class="footer"> 
+			<h2>footer</h2>
+		</div><!--footer-->
+	</div><!--// #box-->
+</body>
+</html>

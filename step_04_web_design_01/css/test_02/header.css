@@ -1,0 +1,32 @@
+@charset "utf-8";
+/*	-------------------------------header------------------------------	*/
+		#header{width: 100%; height: 178px; background-color: #fe3; }
+		#header>div{float:left;}
+			.logo{width: 222px; height: 89px; background-color: #ffe8bf;
+						padding-top:15px;}
+			.logo>h1{text-align: center;}
+
+			.navi_search{width:486px; height:24px; background-color: #d4e4f4;
+											padding-top:14px; padding-right:20px; float:left;}
+			.navi_search>ul{width: 146px; height:16px;float:right;}
+			.navi_search>ul>li{width: 66px;height: 14px;background-color: #efc;
+												margin-right:14px; float:left;}
+		
+			form{width: 222px; height: 40px; background-color: #d4f; 
+							padding-left:10px; float:left;}
+			
+			.title{width: 738px; height: 66px;background-color: #fbf7d1;}
+			.title>h2{padding:34px 42px 0;}
+		
+			.navi_link{width: 912px; height: 24px; background-color: #d4e4f4;
+								padding:12px 24px 0;}
+			.navi_link>ul{width:394px; height: 16px; background-color: #bbb; 
+										float:right;}
+			.navi_link>ul>li{width: 86.5px;height: 16px;background-color: #666; 
+											float:left; margin-right:16px;}
+		
+			.tab_navi{width: 698px;height: 30px;background-color: #abcaea;
+								padding-top:8px; padding-left:262px;}
+			.tab_navi>ul{width:100%; height: 100%; }
+			.tab_navi>ul>li{width:122px; height:30px; background-color: #d3e;
+											float:left; margin-right:14px;}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/common.css" />
+	<title>Document</title>
+	<style>
+/*	'@import'는 하위버전에서 사용하지 못함. rink 의 스피드가 더 빠름.	*/
+		body{background-color:#cca;}
+		h1{width:600px; padding-top: 1em; text-align: center;
+				text-transform:uppercase; color:#fff; text-shadow: 1px 1px 1px #333;
+				cursor:pointer; transition: all 0.5s;margin:0 auto;}
+		hr{border-bottom:3px solid #0af;}
+		p{width:600px; color:#333; border-top:1px solid #fff;}
+		p>span{color:#057; font-size:1.3em;}
+		
+	</style>
+	
+</head>
+<body>
+	<h1 onmouseover="show()" onmouseout="hide()">web test layout</h1>
+	<hr>
+	<div><img src="" alt="" id="imgBox" ></div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit labore provident, asperiores tenetur, amet perspiciatis a officia. Porro ipsum praesentium debitis provident illo possimus quasi tempora quo, <span>at consequatur perspiciatis.</span></p>
+
+<!-- script -->
+	<script>
+		function show(){
+			var img = document.getElementById('imgBox');
+			img.src="../img/layout.png"
+		}
+		function hide(){
+			var img = document.getElementById('imgBox');
+			img.src=""
+		}
+		
+		// show();
+		
+	</script>
+</body>
+</html>

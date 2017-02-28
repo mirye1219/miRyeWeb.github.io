@@ -1,0 +1,9 @@
+@charset "utf-8";
+/*	-------------------------------footer------------------------------	*/
+		#footer{width: 708px; height: 64px; background-color: #fdeabf;
+						padding-top:30px; padding-left:252px;}
+		#footer>div{height:17px; background-color: #fae; }
+			.company_name{width: 346px;margin-bottom:4px;}
+			.copyright{width: 312px; margin-right:18px; float:left;}
+			.tel{width:110px; margin-right:16px;float:left;}
+			.about_site{width: 146px; float:left;}

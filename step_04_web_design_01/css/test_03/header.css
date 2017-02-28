@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*	-------------------------------header-------------------------------	*/
+		#header{width: 1024px; height: 167px; margin-top:1px;
+					background-color: #fef;}
+		#header>div{float:left;}
+		#header>div>ul>li{float:left;}
+		#header>#logo>img{float:left;margin-top:25px;}
+		#header>#logo>h2{float:right; margin-top:56px;}
+		#category{width: 1024px;height: 55px;
+							border:4px solid #999; border-left:none; border-right:none;}
+		#category>ul{width: 952px;height: 28px;padding:14px 36px 13px;}
+		#category>ul>li{height: 29px;}
+		#category>ul>.home{width: 48px; margin-right:60px;}
+		#category>ul>.about{width: 58px; margin-right:54px;}
+		#category>ul>.services{width: 66px; margin-right:62px;}
+		#category>ul>.case{width: 96px; margin-right:62px;}
+		#category>ul>.test{width: 102px; margin-right:58px;}
+		#category>ul>.faq{width: 54px; margin-right:44px;}
+		#category>ul>.say{width: 118px;}
+		#category>ul>li>span{font-size:60%;}
+		#logo{width:955px;height: 103px;padding:0 32px 0 37px;}

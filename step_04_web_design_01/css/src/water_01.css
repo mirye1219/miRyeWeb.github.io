@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* water_01.css */
+#waterWrap{width: 960px; height: auto; margin:0 auto;}
+
+/* #headBox-----------------------------------------------------------------*/
+#headBox{width: 100%; height: 90px;
+				padding-top:18px; box-sizing:border-box;}
+#headBox>div{width: 800px; float:right;}
+	h1{width: 100px;height: 60px;float:left;}
+	h1>a{width: 100%; height: 100%; display: block;
+			background-image: url(../../img/water/kwater_logo.jpg);
+		  background-repeat: no-repeat; background-position:right top;
+			text-indent:-9999px; overflow:hidden;}
+					/*overflow: 밖에 나가는건 어떻게 처리할꺼니?*/
+
+/*
+*background-colokr: #aaa | rgba(red, green, blue, alpha) | hsla(hue, saturation, light, alhpa);
+*background-image: url("image path"), url("more image path|css3");
+*background-repeat: repeat | no-repeat | repeat-x | repeat-y;
+*background-position: x값 y값 | x% y% | right top;
+*background-attachment: scroll | fixed;
+*overflow: hidden | auto | scroll ;
+*overflow-x: hidden | auto | scroll ;
+*overflow-y: hidden | auto | scroll ;
+*/
+
+	#unb{width:232px;height: 18px; float:right;}
+	#unb>ul{width: 100%;height: 100%;}
+	#unb>ul>li{height:100%; float:left;}
+	#unb>ul>.unb_01{width:43px;}
+	#unb>ul>.unb_02{width:53px;}
+	#unb>ul>.unb_03{width:60px;}
+	#unb>ul>.unb_04{width:73px;}
+	#unb>ul>li>a{width:calc(100% - 4px); height: 100%; display:block; float:left;
+							background-repeat:no-repeat; background-position: 0 0;
+							text-indent:-9999px; overflow: hidden;}
+	#unb>ul>.unb_01>a{background-image: url(../../img/water/sitemap_01.jpg);}
+	#unb>ul>.unb_02>a{background-image: url(../../img/water/sitemap_02.jpg);}
+	#unb>ul>.unb_03>a{background-image: url(../../img/water/sitemap_03.jpg);}
+	#unb>ul>.unb_04>a{width: 73px;
+										background-image: url(../../img/water/sitemap_04.jpg);}
+	#unb>ul>li>.vertical{width: 4px; height: 100%; float:right;
+											background-image:url(../../img/water/sitemap_bar.jpg);
+											background-repeat:no-repeat; background-position: 0 0;}
+	#gnb{width: 795px;height: 34px;float:right; margin-top:10px;}
+	#gnb>ul{width: 100%; height: 100%;}
+	#gnb>ul>li{height: 100%; float:left; padding:0 12.5px;}
+	#gnb>ul>li>a{width: 100%;height: 100%; display:block; }
+	#gnb>ul>.one{width:135px;
+								background-image:url(../../img/water/main_nav_01.jpg);
+								background-repeat:no-repeat; background-position:24px 0; left;
+								text-indent:-9999px; overflow:hidden;}
+	#gnb>ul>.two{width: 78px;
+								background-image:url(../../img/water/main_nav_02.jpg);
+								background-repeat:no-repeat; background-position:24px 0;
+								text-indent:-9999px; overflow:hidden;}
+	#gnb>ul>.three{width: 80px;
+								background-image:url(../../img/water/main_nav_03.jpg);
+								background-repeat:no-repeat; background-position:24px 0;
+								text-indent:-9999px; overflow:hidden;}
+	#gnb>ul>.four{width: 80px;
+								background-image:url(../../img/water/main_nav_04.jpg);
+								background-repeat:no-repeat; background-position:24px 0;
+								text-indent:-9999px; overflow:hidden;}
+	#gnb>ul>.five{width: 58px;
+								background-image:url(../../img/water/main_nav_05.jpg);
+								background-repeat:no-repeat; background-position:24px 0;
+								text-indent:-9999px; overflow:hidden;}
+	#gnb>ul>.six{width: 78px;
+								background-image:url(../../img/water/main_nav_06.jpg);
+								background-repeat:no-repeat; background-position:24px 0;
+								text-indent:-9999px; overflow:hidden;}
+	#gnb>ul>.seven{width: 109px;
+								background-image:url(../../img/water/main_nav_07.jpg);
+								background-repeat:no-repeat; background-position:24px 0;
+								text-indent:-9999px; overflow:hidden;}
+/*	#gnb>div>a{padding:0 10px; margin-right:5px;float:left;}*/
+/* #add-----------------------------------------------------------------*/
+#add{width: 100%; height: 598px;}
+	#addbanner{width: inherit;height: 498px; float:left;
+						background-image:url(../../img/water/banner.jpg);
+						background-repeat:no-repeat; background-position:0;}
+	#lnb{width:inherit;height:100px;background-color: #fff; float:left;}
+	#lnb>ul{width: 100%;height: 100%;}
+	#lnb>ul>li{width: 95px;height: 100px; float:left;}
+	#lnb>ul>li>a{width: 92px;height: 100px; display: block; float:left;
+							background-repeat: no-repeat;background-position: 0 0;
+							text-indent:-9999px; overflow: hidden;}
+	#lnb>ul>.hid_01>a{background-image: url(../../img/water/sub_nav_01.jpg);}
+	#lnb>ul>.hid_02>a{background-image: url(../../img/water/sub_nav-02.jpg);}
+	#lnb>ul>.hid_03>a{background-image: url(../../img/water/sub_nav-03.jpg);}
+	#lnb>ul>.hid_04>a{background-image: url(../../img/water/sub_nav-04.jpg);}
+	#lnb>ul>.hid_05>a{background-image: url(../../img/water/sub_nav-05.jpg);}
+	#lnb>ul>.hid_06>a{background-image: url(../../img/water/sub_nav-06.jpg);}
+	#lnb>ul>.hid_07>a{background-image: url(../../img/water/sub_nav-07.jpg);}
+	#lnb>ul>.hid_08>a{background-image: url(../../img/water/sub_nav-08.jpg);}
+	#lnb>ul>.hid_09>a{background-image: url(../../img/water/sub_nav_09.jpg);}
+	#lnb>ul>.hid_10>a{background-image: url(../../img/water/sub_nav_10.jpg);}
+
+/* #content-----------------------------------------------------------------*/
+#content{width: 100%; height: 706px;
+				border-bottom: 1px solid #e8e8e8;
+				background-image: url(../../img/water/article.jpg);
+				background-repeat: no-repeat; background-position: 0;}
+ 
+/* #footBox-----------------------------------------------------------------*/
+#footBox{width: 100%;height: 205px;background-color:#f7f7f7;
+				padding-top:30px; box-sizing: border-box;}
+h2{width: 102px;height: 65px; float:left;}
+h2>a{width: 100%;height: 100%; display: block;
+		background-image: url(../../img/water/kwater_sub_logo.jpg);
+		background-repeat: no-repeat;background-position: 0 0;
+		text-indent:-9999px; overflow: hidden;}
+address{width: 507px;height: 28px; float:left; margin-top:15px;margin-left: 20px;
+				background-image: url(../../img/water/address.jpg);
+				background-repeat: no-repeat;background-position: 0 0;
+				text-indent:-9999px; overflow: hidden;}
+ul{width: 170px;height: 94px;float:right;}
+ul>li{background-repeat: no-repeat;background-position: 0 0;
+			text-indent:-9999px; overflow: hidden;}
+ul>.mark{width: 89px;height: 94px; float:left;
+				 background-image: url(../../img/water/mark.jpg);}
+ul>.qrcode{width: 81px;height: 94px; float:left;
+					 background-image: url(../../img/water/qrcode.jpg);}

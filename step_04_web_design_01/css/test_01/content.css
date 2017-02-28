@@ -1,0 +1,9 @@
+@charset "utf-8";
+/*--------------------- content ---------------------*/
+		#content{width:920px; height:600px; background-color: #0ddddd;
+						padding:0 20px;}
+			#content>div{width: 450px; height:250px; background: #0d11ff; 
+									float:left; margin-top:30px; margin-left:20px}
+			#content>#article{height: 520px; margin-left:0;}
+			#content>#location{margin-bottom:20px;}
+			#content>#news{margin-top:0;}

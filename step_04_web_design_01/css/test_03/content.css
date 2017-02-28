@@ -1,0 +1,24 @@
+@charset "utf-8";
+/*	--------------------------------content--------------------------------	*/
+		#content{width: 962px;height: 648px;padding:0 32px;
+						background-color: #ffe;}
+		#content>div{float:left;}
+		#slide{width: 570px;height: 400px; margin-right:14px; margin-bottom: 32px;
+						background-color: #aaa;}
+		#slide>p{text-align:center; line-height: 300px;}
+		#intro_client{width: 378px; height: 400px; margin-bottom:32px;}
+			#introducing{height: 238px;margin-bottom:11px;border-top: 4px solid #aaa;}
+			#client{height: 154px;border-top: 4px solid #aaa;}
+			#client>img{height: 112px; width: 112px;}
+		#specialise{width: 310px;height: 174px;border-top: 4px solid #aaa;
+								margin-right:16px;}
+		#spectialise>ul{width:100%; height: 100%;}
+		#specialise>ul>li{list-style-type: disc; list-style-position: inside;
+											padding-left:0;}
+		#specialise>ul>li>a{margin-left:-20px;}
+		#testimonial{width: 363px;height: 164px;border: 6px solid #aaa;
+								margin-right:14px;}
+		#testimonial>p{text-align:center; line-height:150px;}
+		#put{width: 246px;height: 168px;background-color: #eee;}
+		#put>h2{text-align: center;padding:30px 0 15px;}
+		#put>p{text-align:center;}

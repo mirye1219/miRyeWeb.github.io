@@ -1,0 +1,12 @@
+@charset "utf-8";
+/*	-------------------------------footer-------------------------------	*/
+		#footer{width: 961px;height: 167px;padding:0 33px 71px 30px;
+					background-color: #eff;}
+		#footer>div{width: 288px;height: 166px;float:left; border-top:2px solid #aaa;}
+		#advertising{margin-right:18px; padding:5px 10px 15px;}
+		#faq{margin-right:16px; padding:5px 10px 15px;}
+		#faq>p{margin-bottom:5px;}
+		#about{float:left;}
+		#about>ul{width: 140px; height:80px;float:left;}
+		#about>ul>li{text-decoration:underline;}
+		

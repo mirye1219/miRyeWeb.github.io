@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko-KR" >
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/test_02/header.css">
+	<link rel="stylesheet" href="../css/test_02/body.css">
+	<link rel="stylesheet" href="../css/test_02/footer.css">
+	<title>layout_test_02</title>
+	<style>
+		#box{width: 960px; height:auto; margin:0 auto;}
+		#box>div>div>ul>.final_margin{margin-right:0;}
+	</style>	
+	<script></script>
+</head>
+<body>
+	<div id="box">
+		<div id="header">
+			<div class="logo"> 
+				<h1>Logo or identity</h1>
+			</div><!-- ----------------- //.logo -->
+			<div class="navi_search">
+				<ul>
+					<li>search_01</li>
+					<li class="final_margin">search_02</li>
+				</ul>				
+			</div><!-- ----------------- //.navi_search -->
+			<form action="" post="get">
+				<fieldset class="search">
+					<label for="search_box" class="hidden">검색창이다.</label>
+					<input type="text" id="search_box" name="search" value="" 
+									placeholder="검색하세요." />
+					<input type="button" id="search_box" name="number" value="검색" />
+				</fieldset>
+			</form><!-- ----------------- //.search -->
+			<div class="title">
+				<h2>Lorem ipsum ante quamver</h2>
+			</div><!-- ----------------- //.title -->
+			<div class="navi_link">
+				<ul>
+					<li>link_01</li>
+					<li>link_02</li>
+					<li>link_03</li>
+					<li class="final_margin">link_04</li>
+				</ul>
+			</div><!-- ----------------- //.navi_link -->
+			<div class="tab_navi">
+				<ul>
+					<li>tab_01</li>
+					<li>tab_02</li>
+					<li class="final_margin">tab_03</li>
+				</ul>
+			</div><!-- ----------------- //.tab_navi-->
+		</div><!-- ------------------------------//#header-------------- -->
+		
+		<div id="body">
+			<div class="left_navi">
+				<div class="local_navi">
+					<ul>
+						<li>local_01</li>
+						<li>local_02</li>
+						<li>local_03</li>
+						<li>local_04</li>
+						<li>local_05</li>
+						<li>local_06</li>
+						<li>local_07</li>
+						<li>local_08</li>
+					</ul>
+				</div><!-- ----------//.local_navi-->
+				<div class="left_scan">
+				<h2>Left scan<br />coulmn<br />(optional)</h2>
+				</div><!-- ----------//.left_scan-->
+			</div><!-- ----------------- //.left_navi-->	
+			<div class="main_content">
+				<ul>
+					<li>main_01</li>
+					<li>main_02</li>
+					<li class="final_margin">main_03</li>
+				</ul>
+					<h2>Main content column</h2>
+			</div><!-- ----------------- //.main_content-->
+			<div class="right_scan">
+			<h2>Right scan<br />column<br />(optional)</h2>
+			</div><!-- ----------------- //.right_scan-->
+		</div><!-- --------------------------------//#body-------------- -->
+		
+		<div id="footer">
+			<div class="company_name">
+				companyname
+			</div><!-- ----------------- //.company_name-->
+			<div class="copyright">
+				copyright
+			</div><!-- ----------------- //.copyright-->
+			<div class="tel">
+				tel
+			</div><!-- ----------------- //.tel-->
+			<div class="about_site">
+				about_site
+			</div><!-- ----------------- //.about_site-->
+		</div><!-- ------------------------------//#footer-------------- -->
+	</div><!-- -------------------------------------------//#box-------------- -->
+</body>
+</html>
